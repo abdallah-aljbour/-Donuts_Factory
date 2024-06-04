@@ -9,6 +9,7 @@
 // else {
 //   alert("Welcome");
 // }
+
 // let $confirm = confirm("Do You Want Order");
 // if ($confirm == true) {
 //   let Order = prompt(
@@ -40,7 +41,7 @@
 // let power = Math.pow(5, 2);
 // console.log(power);
 
-//Q2:inter a number in prompt and read in alert//
+// Q2:inter a number in prompt and read in alert//
 
 // let number = prompt("inter a number");
 // alert(number);
@@ -66,40 +67,93 @@
 
 //Q5:Read two numbers and display their sum. //
 // let sum1 = 10;
-// let sum2 = 10;
-// // let sum = sum1 + sum2;
+// let sum2 = 20;
+// let sum = sum1 + sum2;
 // console.log(sum1 + sum2);
 
-//Q6: If you have a “Number” variable,  Your task is to print
-let NUMBER = 11;
-switch (NUMBER) {
-  case 1:
-    console.log("ONE");
-    break;
-  case 2:
-    console.log("TWO");
-    break;
-  case 3:
-    console.log("THREE");
-    break;
-  case 4:
-    console.log("FOUR");
-    break;
-  case 5:
-    console.log("FIVE");
-    break;
-  case 6:
-    console.log("SEX");
-    break;
-  case 7:
-    console.log("SEVEN,");
-    break;
-  case 8:
-    console.log("EIGHT");
-    break;
-  case 9:
-    console.log("NINE");
-    break;
-  default:
-    console.log("PLEASE TRY AGAIN");
-}
+// Q6: If you have a “Number” variable,  Your task is to print
+// let NUMBER = 1;
+// switch (NUMBER) {
+//   case 1:
+//     console.log("ONE");
+//     break;
+//   case 2:
+//     console.log("TWO");
+//     break;
+//   case 3:
+//     console.log("THREE");
+//     break;
+//   case 4:
+//     console.log("FOUR");
+//     break;
+//   case 5:
+//     console.log("FIVE");
+//     break;
+//   case 6:
+//     console.log("SEX");
+//     break;
+//   case 7:
+//     console.log("SEVEN,");
+//     break;
+//   case 8:
+//     console.log("EIGHT");
+//     break;
+//   case 9:
+//     console.log("NINE");
+//     break;
+//   default:
+//     console.log("PLEASE TRY AGAIN");
+// }
+
+//EX2////////////////////////////////////////////////////////////////////////////
+// let gender = prompt("Enter Your Gender", "male or famele");
+// while (gender != "famele" && gender != "male") {
+//   gender = prompt("Enter Your Gender");
+// }
+/////////////////////////////////////////////////////////////////////////////////
+// let arr = [];
+// arr[0] = prompt("Enter Your Name", "Your Name");
+// arr[1] = prompt("Enter Your Gender", "Your Gener");
+// arr[2] = prompt("Enter TypeOf Order", "Dount , Ice Coffee ...");
+// arr[3] = prompt("Order Name");
+// alert(arr);
+/////////////////////////////////////////////////////////////////////////////////
+// let arr = [];
+// arr[0] = prompt("Enter Your Name", "Your Name");
+// arr[1] = prompt("Enter Your Gender", "Your Gener");
+// arr[2] = prompt("Enter TypeOf Order", "Dount , Ice Coffee ...");
+// arr[3] = prompt("Order Name");
+// for (let i = 0; i <= arr.length; i++) {
+//   console.log(arr[i]);
+// }
+///////Q7/////////////////////////////////////////////////////////
+// for (i = 0; i <= 5; i++) {
+//   alert(i);
+// }
+////Q8///////////////////////////////////////////////
+// let num = "";
+// for (let i = 1; i <= 5; i++) {
+//   num += i;
+// }
+// alert(num);
+//Q9/////////////////////////////////////////////////
+// let num = "";
+// for (let i = 1; i <= 20; i++) {
+//   if (i % 3 == 0) {
+//     num += i;
+//   }
+// }
+// alert(num);
+///Q10///////////////////////////////////////////////////////////////////////////
+// let hun = prompt("Inter Number Between 0-100", "Enter Number");
+// while (hun > 100) {
+//   alert("Error");
+//   hun = prompt("Inter Number Between 0-100", "Enter Number");
+// }
+/////Q11//////////////////////////////////////////////////////////////////////////
+// let int = prompt("Enter Integer Number", "Integer Number");
+// let ave = 0;
+// for (let i = 0; i <= int; i++) {
+//   ave = ave + i;
+// }
+// alert(ave);
