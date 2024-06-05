@@ -157,3 +157,33 @@
 //   ave = ave + i;
 // }
 // alert(ave);
+
+///EX//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// let x = prompt("Enter Your Gender");
+// function gender() {
+//   while (x != "male" && x != "female") {
+//     x = prompt("gender");
+//   }
+// }
+// gender();
+//Q1//////////////////////////////////////////////////
+
+// console.log(rev_num);
+// let arr = [1, 2, 3, 4, 5];
+// let x = arr.reverse();
+// let y = "";
+// function rev() {
+//   for (let i = 0; i < arr.length; i++) {
+//     y += arr[i];
+//   }
+//   alert(y);
+// }
+// rev();
+// let x = 12345;
+// let y = x.toString();
+// console.log(y[2]);
+// let v = "";
+// for (let i = 4; i <= y.length; i--) {
+//   v += y[i];
+// }
+// alert(v);
