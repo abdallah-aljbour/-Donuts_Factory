@@ -187,3 +187,68 @@
 //   v += y[i];
 // }
 // alert(v);
+///EX4/////////////////////////////////////////////////////////////////////////////
+// let x = prompt("Enter Your Gender");
+// function gender() {
+//   while (x != "male" && x != "female") {
+//     x = prompt("gender");
+//   }
+// }
+// gender();
+//EX4////////////////////////////////////////////////////////////////////////////////////////////
+// let Person = prompt("Please enter your name", "Your Name");
+// if (Person != null) {
+//   //   console.log("Hello" + Person);
+// }
+// let Gender = prompt("Your Gender", "Male Or Famale");
+// if (Gender == "Male") {
+//   Gender = "Gender :" + "" + Gender;
+// } else if (Gender == "Famele") alert("Welcome" + "Ms" + Person);
+// else {
+//   //   alert("Welcome");
+// }
+// let Age = prompt("Your Age", "Enter Your Age");
+// Age = "Age :" + "" + Age;
+// let Order = prompt(
+//   "Please Chose Your Order",
+//   "Dount , Coffee , Ice Crema , Bakery"
+// );
+// Order = "Order :" + "" + Order;
+// let div = document.createElement("div"); //creat div
+// // const hero = document.getElementsByClassName("hero_section");
+// let paragraph = document.createElement("p"); //creat parahraph
+// let c = div.appendChild(paragraph); //paragraph inside div
+// let ounorderlist = document.createElement("ul"); //creat unorderlist
+// let list = document.createElement("li"); //creat list1
+// let lists = document.createElement("li"); //creat list2
+// let listm = document.createElement("li"); //creat list3
+// ounorderlist.appendChild(lists); //add list inside ul
+// ounorderlist.appendChild(listm); //add list inside ul
+// ounorderlist.appendChild(list); //add list inside ul
+// div.appendChild(ounorderlist); //unorder list inside div
+// let mtext = document.createTextNode(Person); //must convert input to textnode
+// let gen = document.createTextNode(Gender); //convert to textnode
+// let or = document.createTextNode(Order); //convert to textnode
+// let ag = document.createTextNode(Age); //convert to textnode
+// paragraph.appendChild(mtext); //text node in paragraph
+// lists.appendChild(gen); // node inside list
+// listm.appendChild(ag); // node inside list
+// list.appendChild(or); // node inside list
+// let Div = document.getElementById("ul");
+// let Div1 = document.createTextNode(div);
+// Div.appendChild(div);
+//EX5/////////////////////////////////////////////////////////////////////////////////////////
+let form = document.getElementById("Form");
+form.addEventListener("submit", (a) => {
+  a.preventDefault();
+  let username = form.elements["username"].value;
+  let age = form.elements["age"].value;
+  let gender = form.elements["gender"].value;
+  let order = form.elements["order"].value;
+  let drink = form.elements["drink"].value;
+  document.getElementById("list1").innerHTML = "The User Name : " + username;
+  document.getElementById("list2").innerHTML = "Age : " + age;
+  document.getElementById("list3").innerHTML = "Gender : " + gender;
+  document.getElementById("list4").innerHTML = "Order :" + order;
+  document.getElementById("list5").innerHTML = "Drink : " + drink;
+});
